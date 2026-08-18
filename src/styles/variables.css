@@ -1,0 +1,66 @@
+:root {
+  /* Brand palette */
+  --forest-green: #2f5d50;
+  --forest-green-dark: #234840;
+  --cream-bg: #f8f6f2;
+  --gold-accent: #d4b06a;
+  --gold-accent-soft: #f1e6cf;
+  --white: #ffffff;
+
+  /* Text */
+  --text-dark: #22302c;
+  --text-muted: #6f7d78;
+  --text-on-green: #f8f6f2;
+
+  /* Status colors */
+  --status-active-bg: #e4efe1;
+  --status-active-text: #3f7a4f;
+  --status-completed-bg: #eef1fb;
+  --status-completed-text: #4a5bd1;
+  --status-inactive-bg: #f4e7e7;
+  --status-inactive-text: #b25050;
+
+  /* Layout */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-soft: 0 6px 20px rgba(47, 93, 80, 0.08);
+  --shadow-card: 0 4px 16px rgba(34, 48, 44, 0.06);
+  --sidebar-width: 240px;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+
+  /* Typography scale — headings */
+  --heading-weight: 700;
+  --heading-letter-spacing: -0.01em;
+  --heading-line-height: 1.25;
+
+  /* Typography scale — body */
+  --body-weight-regular: 400;
+  --body-weight-medium: 500;
+  --body-weight-semibold: 600;
+  --body-letter-spacing: 0.01em;
+  --body-line-height: 1.55;
+
+  /* Typography scale — nav / labels / badges */
+  --label-letter-spacing: 0.02em;
+  --nav-letter-spacing: 0.01em;
+
+  /* Premium dark-theme palette (Interior Designer Portal branding) */
+  --dark-sidebar: #23473e;
+  --dark-header: #2a3d36;
+  --dark-bg: #263630;
+  --dark-card: #314740;
+  --dark-hover: #3a5a4f;
+  --dark-border: #476158;
+  --dark-text-primary: #f8f6f2;
+  --dark-text-secondary: #d9d5cb;
+  --dark-gold: #d4b06a;
+  --dark-gold-hover: #c39c52;
+  --dark-success: #6fb18a;
+  --dark-warning: #e0b357;
+  --dark-error: #d97a6b;
+  --dark-shadow-card: 0 10px 30px rgba(0, 0, 0, 0.18);
+}

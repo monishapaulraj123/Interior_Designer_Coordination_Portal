@@ -1,0 +1,81 @@
+.light-theme {
+  --bg-page: var(--cream-bg);
+  --bg-card: var(--white);
+  --bg-sidebar: var(--forest-green);
+  --bg-header: var(--white);
+  --bg-input: #f2efe9;
+  --border-color: #e9e4da;
+  --text-primary: var(--text-dark);
+  --text-secondary: var(--text-muted);
+}
+
+.dark-theme {
+  --bg-page: var(--dark-bg);
+  --bg-card: var(--dark-card);
+  --bg-sidebar: var(--dark-sidebar);
+  --bg-header: var(--dark-header);
+  --bg-input: var(--dark-hover);
+  --border-color: var(--dark-border);
+  --text-primary: var(--dark-text-primary);
+  --text-secondary: var(--dark-text-secondary);
+
+  /* Card elevation should read as a premium lift off the page, not a flat panel */
+  --shadow-card: var(--dark-shadow-card);
+  --shadow-soft: var(--dark-shadow-card);
+
+  /* Status colors restated in the muted luxury dark palette (not inverted) */
+  --status-active-bg: rgba(111, 177, 138, 0.16);
+  --status-active-text: var(--dark-success);
+  --status-completed-bg: rgba(212, 176, 106, 0.16);
+  --status-completed-text: var(--dark-gold);
+  --status-inactive-bg: rgba(217, 122, 107, 0.16);
+  --status-inactive-text: var(--dark-error);
+
+  --gold-accent: var(--dark-gold);
+  --gold-accent-soft: rgba(212, 176, 106, 0.14);
+}
+
+.app-root {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Search bars: stay a touch lighter than the page, never pure black */
+.dark-theme .header-search,
+.dark-theme .directory-search {
+  background-color: var(--dark-hover);
+  border: 1px solid var(--dark-border);
+}
+
+/* Gold buttons keep their identity in dark mode; hover deepens rather than inverts */
+.dark-theme .btn-primary {
+  background: var(--dark-gold);
+  color: #23332c;
+}
+
+.dark-theme .btn-primary:hover {
+  background: var(--dark-gold-hover);
+}
+
+/* Sidebar link hover / active state tuned to the new sidebar tone */
+.dark-theme .sidebar-link:hover {
+  background: rgba(248, 246, 242, 0.08);
+}
+
+.dark-theme .sidebar-link.is-active {
+  background: var(--dark-gold);
+  color: #23332c;
+}
+
+/* Card hover lift reads as warmth, not a generic dev-dashboard highlight */
+.dark-theme .customer-card:hover {
+  background-color: var(--dark-hover);
+  border-color: var(--dark-border);
+}
+
+.dark-theme .icon-btn:hover {
+  background: rgba(212, 176, 106, 0.16);
+  color: var(--dark-gold);
+}
