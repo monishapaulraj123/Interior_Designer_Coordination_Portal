@@ -97,3 +97,5 @@ export default function ContractorDetailModal({ contractor, onClose, onViewProje
     </div>
   )
 }
+
+

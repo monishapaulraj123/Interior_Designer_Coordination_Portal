@@ -125,3 +125,6 @@ export default function ProjectDetailModal({ project, onClose, onAdvanceStage })
     </div>
   )
 }
+
+
+
